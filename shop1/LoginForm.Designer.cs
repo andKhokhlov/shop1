@@ -45,13 +45,13 @@
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pn_login = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.pn_reg = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.RegButton = new Guna.UI2.WinForms.Guna2Button();
             this.passwordtrue = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.RegButton = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.pn_login.SuspendLayout();
             this.pn_reg.SuspendLayout();
@@ -237,6 +237,7 @@
             // pn_login
             // 
             this.pn_login.BackColor = System.Drawing.Color.Transparent;
+            this.pn_login.Controls.Add(this.pn_reg);
             this.pn_login.Controls.Add(this.guna2TextBox1);
             this.pn_login.Controls.Add(this.guna2TextBox2);
             this.pn_login.Controls.Add(this.guna2ToggleSwitch1);
@@ -263,12 +264,30 @@
             this.pn_reg.Controls.Add(this.guna2TextBox4);
             this.pn_reg.Controls.Add(this.label3);
             this.pn_reg.FillColor = System.Drawing.Color.White;
-            this.pn_reg.Location = new System.Drawing.Point(438, 47);
+            this.pn_reg.Location = new System.Drawing.Point(0, 0);
             this.pn_reg.Name = "pn_reg";
             this.pn_reg.ShadowColor = System.Drawing.Color.SteelBlue;
             this.pn_reg.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
             this.pn_reg.Size = new System.Drawing.Size(263, 376);
             this.pn_reg.TabIndex = 8;
+            // 
+            // RegButton
+            // 
+            this.RegButton.Animated = true;
+            this.RegButton.AutoRoundedCorners = true;
+            this.RegButton.BorderRadius = 21;
+            this.RegButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RegButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RegButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RegButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RegButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RegButton.ForeColor = System.Drawing.Color.White;
+            this.RegButton.Location = new System.Drawing.Point(20, 253);
+            this.RegButton.Name = "RegButton";
+            this.RegButton.Size = new System.Drawing.Size(221, 45);
+            this.RegButton.TabIndex = 8;
+            this.RegButton.Text = "Зарегестрироваться";
+            this.RegButton.Click += new System.EventHandler(this.RegButton_Click);
             // 
             // passwordtrue
             // 
@@ -381,31 +400,12 @@
             this.label3.Text = "Регистрация";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // RegButton
-            // 
-            this.RegButton.Animated = true;
-            this.RegButton.AutoRoundedCorners = true;
-            this.RegButton.BorderRadius = 21;
-            this.RegButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.RegButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.RegButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.RegButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.RegButton.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RegButton.ForeColor = System.Drawing.Color.White;
-            this.RegButton.Location = new System.Drawing.Point(20, 253);
-            this.RegButton.Name = "RegButton";
-            this.RegButton.Size = new System.Drawing.Size(221, 45);
-            this.RegButton.TabIndex = 8;
-            this.RegButton.Text = "Зарегестрироваться";
-            this.RegButton.Click += new System.EventHandler(this.RegButton_Click);
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(730, 444);
-            this.Controls.Add(this.pn_reg);
             this.Controls.Add(this.pn_login);
             this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.guna2ControlBox1);
