@@ -179,5 +179,15 @@ namespace shop1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_logo_2_free_file {
+            get {
+                object obj = ResourceManager.GetObject("Untitled_logo_2_free-file", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -133,25 +133,28 @@
   <data name="1000-dimasobolev-8d53b45257f0a35ef1c84560fb36547c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1000-dimasobolev-8d53b45257f0a35ef1c84560fb36547c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FE6780EBE2D079ECA37644570148" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FE6780EBE2D079ECA37644570148.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9D9A3AF03A330E51CF144AFC39A3-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9D9A3AF03A330E51CF144AFC39A3-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="free-icon-right-arrow-of-straight-thin-line-60934" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\free-icon-right-arrow-of-straight-thin-line-60934.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="9D9A3AF03A330E51CF144AFC39A3-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9D9A3AF03A330E51CF144AFC39A3-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="AD9A6020673121BF73057967B088-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AD9A6020673121BF73057967B088-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FE6780EBE2D079ECA37644570148-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FE6780EBE2D079ECA37644570148-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="412EFD3002CC06791D362915D26E-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\412EFD3002CC06791D362915D26E-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FE6780EBE2D079ECA37644570148-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FE6780EBE2D079ECA37644570148-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EE3C1C3466FE1274CCB1D1F69190-Photoroom.png-Photoroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EE3C1C3466FE1274CCB1D1F69190-Photoroom.png-Photoroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FE6780EBE2D079ECA37644570148" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FE6780EBE2D079ECA37644570148.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled_logo_2_free-file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled_logo_2_free-file.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
